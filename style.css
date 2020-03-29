@@ -1,0 +1,122 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: rgb(32, 33, 36);
+	font-family: monospace;
+	height: 100%;
+	color: white;
+	font-size: 110%;
+}
+
+.hide{
+	display: none;
+}
+
+.bn{
+	padding:0.9em 2.4em;
+	background-color: rgb(255, 140, 39);
+	margin: 0 0.3em 0.3em 0;
+	border-radius: 2em;
+	font-weight:bold;
+	border: none;
+	color:white;
+}
+
+.bn:hover {
+ box-shadow: 0 5px 10px rgba(255,255,255,0.5);
+ cursor: pointer;
+}
+
+#form{
+	padding: 100px;
+	/*border:5px solid black;*/
+	position: absolute;
+	/*padding-bottom: 0;*/
+	/*height: 60%;*/
+	top: 20%;
+	left: 30%;
+
+}
+
+#p1{
+
+}
+
+#gender{
+	display: flex;
+}
+
+.d1 span input{
+	margin: 10px; 
+}
+
+#gender input{
+	margin: 2px; 
+}
+
+#p2{
+}
+
+.pn{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+#simg{
+	display: flex;
+	flex-direction: column;
+}
+
+#img{
+	display: none;
+}
+#simg label{
+	padding: 5em;
+	background-color: rgb(41, 45, 62);
+	color: white;
+}
+#upload{
+	width: 20%;
+}
+
+
+#pa3 {
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: flex-start;
+}
+
+#pa3 span input{
+	margin-left: 10px;
+}
+
+#pa3 span {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px;
+}
+
+.field {
+	border-radius: 25px;
+    padding: 1.5em; 
+    width: 15em;
+    height: 0.01em; 
+	border-style: none;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+h1{
+	margin: 0;
+	font-size: 5em;
+	/*position: relative;*/
+	/*top: 50%;*/
+	/*left: 10%;*/
+
+}
+
+#main{
+	/*display: flex;*/
+	/*flex-direction: column;*/
+}

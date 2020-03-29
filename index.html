@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+	<span id = 'main'>
+		<h1>Register</h1>
+		<form id = 'form'>
+					<div id = 'p1' class="d1" >
+						<span id = 'name'>Name:<input type="text" name="name" class = 'field' required><br></span>
+
+					 	<span id = 'gender'>
+					 		Gender:
+							 	<input type="radio" name="gender" value="Male">Male<br>
+							 	<input type="radio" name="gender" value="Female">Female<br>
+							 	<input type="radio" name="gender" value="Other">Other<br>
+						</span>
+
+						<span id = 'bd'>
+						Birth date:
+							<input type="date" name="birthday" class = 'field' required><br>
+						</span>
+
+						<span id = 'cntry'>
+						Country:
+							<input type="text" name="Country" class = 'field' required><br>
+						</span>
+
+						<span>
+						<input type="button" name="next" class = 'next bn' value= 'Next'>
+						</span>
+					</div>
+
+					<div id ='p2' class = 'hide'>
+						<span id = 'simg'>
+				 			<input type="file" name="img" id = 'img' accept="image/*">
+				 			<label for = 'img' ondrop="dropHandler(event);" ondragover="dragOver(event);">
+				 			Drag and drop or click here</label>
+							<!-- <input type="button" name="upload" id= 'upload bn' value= 'Upload'> --><br/>
+			 			</span>
+						<span class = 'pn'>
+							<input type="button" name="prev" class= 'prev bn' value= 'Prev'>		
+							<input type="button" name="next" class = 'next bn' value= 'Next'>
+				  		</span>
+					</div>
+
+					<div id ='p3' class="hide">
+						<span id = pa3>	
+							<span>Email: <input type="email" name="email" class = 'field' required></span>
+							<span>Password: <input type="password" name="pwd" class = 'field' required></span>
+							<span>Confirm Password: <input type="password" name="rpwd" class = 'field' required></span>
+						</span>
+						<span class="pn">
+							<input type="button" name="prev" class = 'prev bn' value= 'Prev'>		
+							<input type="submit" name="submit" id = 'submit' class = 'bn' value="Submit">
+						</span>
+					</div>
+		</form>
+	</span>	
+	<script type="text/javascript" src = './script.js'></script>
+</body>
+</html>
