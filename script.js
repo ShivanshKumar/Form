@@ -29,11 +29,7 @@ submit.addEventListener('click',()=>{
 		alert('Password and Confirm Password does not match!');
 	}
 
-	if(filled()){
-		const ty = document.createElement("h1");
-	ty.appendChild(document.createTextNode("Thank You"));
-	document.querySelector('body').appendChildinner(ty);	
-	}
+	if(!filled()) {alert(`You didn't fill out something!`);};
 
 });
 
